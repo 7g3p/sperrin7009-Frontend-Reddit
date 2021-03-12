@@ -9,7 +9,7 @@ import './App.css';
 function App() {
 
   return (
-      <BrowserRouter basename="/sperrin7009-Frontend-Reddit">
+      <BrowserRouter>
       <Layout>
         <Switch>
           <Route path="/favourites" component={FavouritePosts}/>
