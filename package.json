@@ -3,6 +3,7 @@
   "name": "reddit-saves-project",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://7g3p.github.io/sperrin7009-Frontend-Reddit/",
   "dependencies": {
     "@craco/craco": "^6.1.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
