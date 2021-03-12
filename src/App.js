@@ -9,7 +9,7 @@ import './App.css';
 function App() {
 
   return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename="/sperrin7009-Frontend-Reddit">
       <Layout>
         <Switch>
           <Route path="/favourites" component={FavouritePosts}/>
