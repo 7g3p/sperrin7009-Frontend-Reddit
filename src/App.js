@@ -12,8 +12,8 @@ function App() {
       <BrowserRouter>
       <Layout>
         <Switch>
-          <Route path="/favourites" component={FavouritePosts}/>
-          <Route path="/search" component={SearchSubreddits}/>
+          <Route path="/sperrin7009-Frontend-Reddit/favourites" component={FavouritePosts}/>
+          <Route path="/sperrin7009-Frontend-Reddit/search" component={SearchSubreddits}/>
         </Switch>
         </Layout>
       </BrowserRouter>
