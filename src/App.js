@@ -9,11 +9,11 @@ import './App.css';
 function App() {
 
   return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Layout>
         <Switch>
-          <Route path="/sperrin7009-Frontend-Reddit/favourites" component={FavouritePosts}/>
-          <Route path="/sperrin7009-Frontend-Reddit/search" component={SearchSubreddits}/>
+          <Route path="/favourites" component={FavouritePosts}/>
+          <Route path="/search" component={SearchSubreddits}/>
         </Switch>
         </Layout>
       </BrowserRouter>
