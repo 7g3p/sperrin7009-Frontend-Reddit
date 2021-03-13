@@ -69,7 +69,8 @@ const FavouritePosts = () => {
                 }
                 else{
                     // Set a new key to hold the saved favourites
-                    localStorage.setItem(defaultKeyName, "");
+                    localStorage.setItem(defaultKeyName, "}{");
+                    console.log("Created new key in localstorage");
                 }
             }
             else {
