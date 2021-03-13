@@ -43,6 +43,8 @@ const FavouritePosts = () => {
             if (storageAvailable('localStorage')) {
                 postUrls = localStorage.getItem(defaultKeyName);
 
+                console.log(postUrls);
+
                 if (postUrls !== null){
                     postsArr = postUrls.split("}{");
 
