@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sperrin7009-Frontend-Reddit/static/css/main.00aac7c7.chunk.css",
-    "main.js": "/sperrin7009-Frontend-Reddit/static/js/main.e186f0f2.chunk.js",
-    "main.js.map": "/sperrin7009-Frontend-Reddit/static/js/main.e186f0f2.chunk.js.map",
+    "main.js": "/sperrin7009-Frontend-Reddit/static/js/main.469d64de.chunk.js",
+    "main.js.map": "/sperrin7009-Frontend-Reddit/static/js/main.469d64de.chunk.js.map",
     "runtime-main.js": "/sperrin7009-Frontend-Reddit/static/js/runtime-main.9e5d0a0c.js",
     "runtime-main.js.map": "/sperrin7009-Frontend-Reddit/static/js/runtime-main.9e5d0a0c.js.map",
     "static/css/2.6be2adcb.chunk.css": "/sperrin7009-Frontend-Reddit/static/css/2.6be2adcb.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.6be2adcb.chunk.css",
     "static/js/2.15af5a63.chunk.js",
     "static/css/main.00aac7c7.chunk.css",
-    "static/js/main.e186f0f2.chunk.js"
+    "static/js/main.469d64de.chunk.js"
   ]
 }
