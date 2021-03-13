@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import { MenuItems } from '../Data/menuItems.js';
 
 const NavBar = () => {
@@ -30,16 +31,16 @@ const NavBar = () => {
         >
           {MenuItems.map((item, index) => {
             return (
-              <a
+              <Link
                 key={index}
                 style={{ fontFamily: "Fredoka One, cursive" }}
                 className={`${
                   index === 0 ? "mt-0" : "mt-2"
                 } block font-medium rounded px-2 py-1 transition-all duration-500 ease-in-out hover:bg-purple-300 sm:font-normal sm:mt-0 sm:ml-2 `}
-                href={item.url}
+                to={item.url}
               >
                 {item.title}
-              </a>
+              </Link>
             );
           })}
         </div>

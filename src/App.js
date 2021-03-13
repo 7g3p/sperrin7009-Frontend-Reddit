@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Layout from './Components/layout.js';
 import SearchSubreddits from './search.js';
 import FavouritePosts from './favourites.js';
@@ -9,14 +9,12 @@ import './App.css';
 function App() {
 
   return (
-      <BrowserRouter>
+      <HashRouter>
       <Layout>
-        <Switch>
           <Route path="/favourites" component={FavouritePosts}/>
           <Route path="/search" component={SearchSubreddits}/>
-        </Switch>
         </Layout>
-      </BrowserRouter>
+      </HashRouter>
   );
 }
 
