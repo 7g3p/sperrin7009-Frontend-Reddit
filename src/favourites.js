@@ -67,6 +67,10 @@ const FavouritePosts = () => {
                         })
                     }
                 }
+                else{
+                    // Set a new key to hold the saved favourites
+                    localStorage.setItem(defaultKeyName, "");
+                }
             }
             else {
                 Window.alert("LocalStorage is not available.");
